@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S02KNZ2LJS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-S02KNZ2LJS');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hormonize Website Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/3475f172b9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <img src="images/logo.png" class="logo"> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li></li>
+                    <li><a href="index.html">PL</a></li>
+                    <li><a href="HTML/index_eng.html">ENG</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, Everyone</p>
+                <h1>I am</h1>
+                <h2>Manisha Bubna!<span class="typing"></span></h2>
+                <p>fond of Interior Designing.</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about-section------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me:</h1>
+                    <p>
+
+                        My name is Manisha, and I am a graduate of the University of Ecology and Management. I have
+                        obtained a Bachelor's degree in interior architecture. I plan to continue my studies at the
+                        master's level in this field. I have been interested in interior design since childhood, and my
+                        parents supported me in developing this passion. I have experience in customer service and a
+                        passion for drawing and strength sports. My qualities are creativity and diligence, which I want
+                        to use in my further career.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Abilities</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>3ds Max</span><br>Interior visualization</li>
+                            <li><span>AutoCAD</span><br>Projects <br>Functional drawings</li>
+                            <li><span>MsOffice</span><br>Preparing cost estimates <br>Moodboards</li>
+                            <li><span>Photoshop</span><br>Photography and photo editing</li>
+                            <li><span>Driver's License</span><br>B</li>
+                            <li><span>Customer Service</span><br>Consulting and Sales</li>
+                            <li><span>Languages</span><br>English <br>Hindi</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>Anand Ashram</li>
+                            <li>Alakhnath Temple</li>
+                            <li>Phoenix Mall Restaurant</li>
+                            <li>Surya Banquet Hall</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Present</span><br>Master's Degree in Interior Architecture<br>WSEiZ University</li>
+                            <li><span>2023</span><br>Bachelor's Degree in Interior Architecture<br>WSEiZ University</li>
+                            <li><span>2018</span><br>High School Diploma</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------services-section------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-user-graduate fa-bounce"></i>
+                    <h2>Interior Architect</h2>
+                    <p>Graduated from the University of Ecology and Management with a Bachelor's degree.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pencil fa-bounce"></i>
+                    <h2>Proficiency in Visualization and Technical Drawing Software</h2>
+                    <p>Proficient in software for creating technical drawings, such as AutoCAD. Ability to read and create
+                        plans, sections, elevations, and other technical drawings. <br>
+                        Familiarity with 3D modeling tools like SketchUp.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-tie fa-bounce"></i>
+                    <h2>Customer Service</h2>
+                    <p>Years of experience in customer service in various positions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- -------------portfolio-section------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Commercial</h3>
+                        <p>I designed the interior of commercial area. <br> See the project in the link below</p>
+                        <a href="HTML/commercial_images.html"><i class="fa-solid fa-paperclip fa-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Elevation</h3>
+                        <p><br> See the project in the link below</p>
+                        <a href="HTML/elevation_images.html"><i class="fa-solid fa-paperclip fa-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Kitchen</h3>
+                        <p><br> See the project in the link below</p>
+                        <a href="HTML/kitchen_images.html"><i class="fa-solid fa-paperclip fa-fade"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-4.png">
+                    <div class="layer">
+                        <h3>Lobby</h3>
+                        <p>
+                            <br>See the project in the link below
+                        </p>
+                        <a href="HTML/lobby_images.html"><i class="fa-solid fa-paperclip fa-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-5.png">
+                    <div class="layer">
+                        <h3>Master Room</h3>
+                        <p>
+                            <br> See the project in the link below
+                        </p>
+                        <a href="HTML/masterroom_images.html"><i class="fa-solid fa-paperclip fa-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-6.png">
+                    <div class="layer">
+                        <h3>Recreation Room</h3>
+                        <p>
+                            <br> See the project in the link below
+                        </p>
+                        <a href="HTML/recr_images.html"><i class="fa-solid fa-paperclip fa-fade"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-7.png">
+                    <div class="layer">
+                        <h3>Kitchen Project</h3>
+                        <p>
+                            <br>See the project in the link below
+                        </p>
+                        <a href="HTML/kitchen_project.html"><i class="fa-solid fa-paperclip fa-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-8.png">
+                    <div class="layer">
+                        <h3>Pooja Ghar</h3>
+                        <p>
+                            <br> See the project in the link below
+                        </p>
+                        <a href="HTML/pooja_images.html"><i class="fa-solid fa-paperclip fa-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-9.png">
+                    <div class="layer">
+                        <h3>Coming Soon!!!</h3>
+                        <p>
+                            <br>
+                        </p>
+                        <a href="#"><i class="fa-solid fa-paperclip fa-fade"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -------------contact-section------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact</h1>
+                    <p><i class="fa-solid fa-user"></i>Manisha Bubna</p>
+                    <p><i class="fa-solid fa-phone fa-shake"></i>+91</p>
+                    <p><i class="fa-solid fa-envelope fa-flip"></i>contact@dominikatoczyska.pl</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Bareilly</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/dominika.toczyska.1" target="_blank" id="fb"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://youtube.com/@manishabubna7570?si=d9mNkUnE47PpeKAY" id="YouTube"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="#" id="insta"><i class="fa-brands fa-instagram"></i></a>
+                    <!-- </div>
+                    <a href="files/CV_Dominika_Toczyska.pdf" download class="btn btn2">Download CV</a>
+                </div> -->
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/kontakt@dominikatoczyska.pl" method="POST">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <input type="hidden" name="_next" value="https://dominikatoczyska.pl/HTML/thankyou.html">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; </p>
+        </div>
+    </div>
+    
+    <script src="JS/script_pl.js"></script>
+
+</body>
+
+</html>
